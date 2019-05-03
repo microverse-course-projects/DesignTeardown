@@ -11,7 +11,6 @@
     display: flex;
 }
 
-
 .navbar > div{
     flex:auto;
     padding:40px 0;
@@ -51,11 +50,12 @@
 
 .see-all {
     justify-content: center;
-    height: 100px;
+   padding: 50px;
 }
 
 .conf{
-    height: 50vh;
+    padding: 25vh;
+    justify-content: center;
 }
 
 .community{
@@ -64,15 +64,17 @@
 
 .community > div{
     width:50%;
-    height:20vh;
+    padding:10vh;
     box-sizing:border-box;
+    text-align: center;
 }
 .community > div:first-child{
     width:100%;
 }
 
 .systems{
-    height:30vh;
+    padding:15vh;
+    justify-content: center;
 }
 
 .curated-posts{
@@ -82,15 +84,15 @@
 .curated-posts > div{
     width:33%;
     box-sizing: border-box;
-    height:30vh;
+    padding:15vh;
+    text-align: center;
 }
 .curated-posts > div.biggerpost{
     width:66%;
 }
-footer{height:50vh; background:red;}
+footer{padding:25vh; text-align: center;}
 
 .tier1{background:#999;}
 .tier2{background:#aaa;}
 .tier3{background:#ccc;}
 .tier4{background:#eee;}
-
