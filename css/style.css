@@ -1,3 +1,20 @@
+body{
+    font-family: 'Roboto', sans-serif; 
+    font-size:16px;
+}
+
+h1{
+    font-size:1.5em;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+h2{
+    font-size:1.4em; 
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
 .redborder, .redborder > div {
     border: 1px solid black;
     
@@ -40,7 +57,7 @@
 .latest-posts > div{
     width: 25%;
     box-sizing: border-box;
-    padding:200px 0;
+    padding:200px 40px;
     text-align:center;
 }
 
@@ -54,8 +71,9 @@
 }
 
 .conf{
-    padding: 25vh;
-    justify-content: center;
+    padding: 40vh;
+    text-align:center;
+    flex-direction: column;
 }
 
 .community{
@@ -73,8 +91,10 @@
 }
 
 .systems{
-    padding:15vh;
+    padding:25vh;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .curated-posts{
@@ -91,6 +111,11 @@
     width:66%;
 }
 footer{padding:25vh; text-align: center;}
+footer ul{margin-top:5vh;}
+footer li{
+    display:inline-block; 
+    font-size:1.2em;
+}
 
 .tier1{background:#999;}
 .tier2{background:#aaa;}
