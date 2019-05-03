@@ -1,3 +1,52 @@
-/* CSS here */
+.redborder, .redborder > div {
+    border: 1px solid red;
+}
 
-body{}
+.blueborder, .blueborder > div {
+    border: 1px solid blue;
+}
+
+.flex {
+    display: flex;
+}
+
+.navbar {
+    height: 120px;
+}
+
+.articles {
+    flex-wrap: wrap;
+}
+
+.articles div {
+    width: 50%;
+    box-sizing: border-box;
+    height: 300px;
+}
+
+.membership {
+    height: 350px;
+}
+
+.latest-posts {
+    flex-wrap: wrap;
+}
+
+.latest-posts div{
+    width: 25%;
+    box-sizing: border-box;
+    height: 500px;
+}
+
+.latest-posts div.biggerpost {
+    width: 50%;
+}
+
+.see-all {
+    justify-content: center;
+    height: 100px;
+}
+
+.conf {
+    height: 800px;
+}
