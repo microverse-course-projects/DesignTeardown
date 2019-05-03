@@ -1,41 +1,48 @@
 .redborder, .redborder > div {
-    border: 1px solid red;
+    border: 1px solid black;
+    
 }
 
 .blueborder, .blueborder > div {
-    border: 1px solid blue;
+    border: 1px solid black;
 }
 
 .flex {
     display: flex;
 }
 
-.navbar {
-    height: 120px;
+
+.navbar > div{
+    flex:auto;
+    padding:40px 0;
+    text-align: center;
 }
 
 .articles {
     flex-wrap: wrap;
 }
 
-.articles div {
+.articles > div {
     width: 50%;
     box-sizing: border-box;
-    height: 300px;
+    padding:200px 0;
+    text-align:center;
 }
 
 .membership {
-    height: 350px;
+    padding:200px 0;
+    text-align:center;
 }
 
 .latest-posts {
     flex-wrap: wrap;
 }
 
-.latest-posts div{
+.latest-posts > div{
     width: 25%;
     box-sizing: border-box;
-    height: 500px;
+    padding:200px 0;
+    text-align:center;
 }
 
 .latest-posts div.biggerpost {
@@ -47,6 +54,43 @@
     height: 100px;
 }
 
-.conf {
-    height: 800px;
+.conf{
+    height: 50vh;
 }
+
+.community{
+    flex-wrap:wrap;
+}
+
+.community > div{
+    width:50%;
+    height:20vh;
+    box-sizing:border-box;
+}
+.community > div:first-child{
+    width:100%;
+}
+
+.systems{
+    height:30vh;
+}
+
+.curated-posts{
+    flex-wrap: wrap;
+}
+
+.curated-posts > div{
+    width:33%;
+    box-sizing: border-box;
+    height:30vh;
+}
+.curated-posts > div.biggerpost{
+    width:66%;
+}
+footer{height:50vh; background:red;}
+
+.tier1{background:#999;}
+.tier2{background:#aaa;}
+.tier3{background:#ccc;}
+.tier4{background:#eee;}
+
