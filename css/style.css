@@ -34,6 +34,18 @@ h2{
     text-align: center;
 }
 
+.latest-articles {
+    position: absolute;
+    left: calc(50% - 200px);
+    background-color: white;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+    width: 400px;
+    text-align: center;
+}
+
 .articles {
     flex-wrap: wrap;
 }
@@ -88,6 +100,10 @@ h2{
 }
 .community > div:first-child{
     width:100%;
+}
+
+.person-week, footer p {
+    text-transform: uppercase;
 }
 
 .systems{
