@@ -1,0 +1,139 @@
+body{
+    font-family: 'Roboto', sans-serif; 
+    font-size:16px;
+}
+
+h1{
+    font-size:1.5em;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+h2{
+    font-size:1.4em; 
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.redborder, .redborder > div {
+    border: 1px solid black;
+    
+}
+
+.blueborder, .blueborder > div {
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+}
+
+.navbar > div{
+    flex:auto;
+    padding:40px 0;
+    text-align: center;
+}
+
+.latest-articles {
+    position: absolute;
+    left: calc(50% - 200px);
+    background-color: white;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+    width: 400px;
+    text-align: center;
+}
+
+.articles {
+    flex-wrap: wrap;
+}
+
+.articles > div {
+    width: 50%;
+    box-sizing: border-box;
+    padding:200px 0;
+    text-align:center;
+}
+
+.membership {
+    padding:200px 0;
+    text-align:center;
+}
+
+.latest-posts {
+    flex-wrap: wrap;
+}
+
+.latest-posts > div{
+    width: 25%;
+    box-sizing: border-box;
+    padding:200px 40px;
+    text-align:center;
+}
+
+.latest-posts div.biggerpost {
+    width: 50%;
+}
+
+.see-all {
+    justify-content: center;
+   padding: 50px;
+}
+
+.conf{
+    padding: 40vh;
+    text-align:center;
+    flex-direction: column;
+}
+
+.community{
+    flex-wrap:wrap;
+}
+
+.community > div{
+    width:50%;
+    padding:10vh;
+    box-sizing:border-box;
+    text-align: center;
+}
+.community > div:first-child{
+    width:100%;
+}
+
+.person-week, footer p {
+    text-transform: uppercase;
+}
+
+.systems{
+    padding:25vh;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.curated-posts{
+    flex-wrap: wrap;
+}
+
+.curated-posts > div{
+    width:33%;
+    box-sizing: border-box;
+    padding:15vh;
+    text-align: center;
+}
+.curated-posts > div.biggerpost{
+    width:66%;
+}
+footer{padding:25vh; text-align: center;}
+footer ul{margin-top:5vh;}
+footer li{
+    display:inline-block; 
+    font-size:1.2em;
+}
+
+.tier1{background:#999;}
+.tier2{background:#aaa;}
+.tier3{background:#ccc;}
+.tier4{background:#eee;}
